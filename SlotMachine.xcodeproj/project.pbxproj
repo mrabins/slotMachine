@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134FAE521A5F616B00E60B3B /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134FAE511A5F616B00E60B3B /* SlotBrain.swift */; };
 		13E166971A4E15EF00A4C0FC /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E166961A4E15EF00A4C0FC /* Slot.swift */; };
 		13E166991A4E17CE00A4C0FC /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E166981A4E17CE00A4C0FC /* Factory.swift */; };
 		13E1A8601A42AD9A007AABC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E1A85F1A42AD9A007AABC4 /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		134FAE511A5F616B00E60B3B /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
 		13E166961A4E15EF00A4C0FC /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
 		13E166981A4E17CE00A4C0FC /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		13E1A85A1A42AD9A007AABC4 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,12 +85,13 @@
 			children = (
 				13E1A85F1A42AD9A007AABC4 /* AppDelegate.swift */,
 				13E1A8611A42AD9A007AABC4 /* ViewController.swift */,
+				13E166981A4E17CE00A4C0FC /* Factory.swift */,
+				134FAE511A5F616B00E60B3B /* SlotBrain.swift */,
 				13E166961A4E15EF00A4C0FC /* Slot.swift */,
 				13E1A8631A42AD9A007AABC4 /* Main.storyboard */,
 				13E1A8661A42AD9A007AABC4 /* Images.xcassets */,
 				13E1A8681A42AD9A007AABC4 /* LaunchScreen.xib */,
 				13E1A85D1A42AD9A007AABC4 /* Supporting Files */,
-				13E166981A4E17CE00A4C0FC /* Factory.swift */,
 			);
 			path = SlotMachine;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				13E1A8621A42AD9A007AABC4 /* ViewController.swift in Sources */,
 				13E166971A4E15EF00A4C0FC /* Slot.swift in Sources */,
 				13E1A8601A42AD9A007AABC4 /* AppDelegate.swift in Sources */,
+				134FAE521A5F616B00E60B3B /* SlotBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
